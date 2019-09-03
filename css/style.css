@@ -15,10 +15,21 @@ header{
     background-repeat: no-repeat;
     height: 400px;
 }
+img{
+    height: 250px;
+}
+section img:nth-child(odd):hover{
+    width: 100%;
+}
 nav{
     align-items: center;
     background-color: yellow;
     display: flex;
     height: 50px;
-    justify-content: space-around;
+    justify-content: space-around; /*QUANDO NAO HA A DEFINICAO DE TAMANHOS  DA SECTION SEU TAMNHAO SERA CORRESPONDENTE A O ESPAÇO OCUPADO PELOS SEUS ITENS*/
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
